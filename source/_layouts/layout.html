@@ -28,7 +28,7 @@
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.author.name }}</h1>
         <p>
-            <a href="{{ site.author.tel_full }}">+{{ site.author.tel }}</a>
+            <a href="tel:+{{ site.author.tel }}">+{{ site.author.tel }}</a>
         </p>
         <address>
             <a href="{{ site.google_maps }}">
@@ -39,7 +39,7 @@
             </a>
         </address>
         <p>
-            <a href="{{ site.author.email_full }}">{{ site.author.email }}</a><br/>
+            <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br/>
         </p>
     </header>
     <div class="thirteen columns clearfix">
