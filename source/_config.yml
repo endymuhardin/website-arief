@@ -1,3 +1,21 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+title: Arief Masthuro Warli
+url: http://arief.masthuro.com
+
+address: Jl.Swadaya Gudang Baru 101, Ciganjur
+postcode: 12630
+city: Jagakarsa
+country: Jakarta Selatan
+
+
+author:
+  name: Arief Masthuro
+  email: arief@masthuro.com
+  email_full: mailto: arief@masthuro.com
+  tel: +6285777460291
+  tel_full: tel:+6285777460291
